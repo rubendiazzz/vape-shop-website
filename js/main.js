@@ -11,7 +11,6 @@ function performSearch(query) {
         .then((response) => response.json())
         .then((data) => {
             console.log('Search results:', data);
-            // Display search results on the page
         })
         .catch((error) => {
             console.error('Error fetching search results:', error);
